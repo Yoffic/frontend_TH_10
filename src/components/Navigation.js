@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navigation = props =>
+const Navigation = () =>
   <nav className="main-nav">
     <ul>
       <li><NavLink to="/cats">Cats</NavLink></li>

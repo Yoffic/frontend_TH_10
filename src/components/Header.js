@@ -7,9 +7,7 @@ class Header extends Component {
 
 handleSubmit = (e) => {
   e.preventDefault();
-  // store value from input
   let inputKeyword = this.keyword.value;
-  // create new path based on input value
   let path = `/${inputKeyword}`;
   // add path to the URL
   this.props.history.push(path);
