@@ -10,16 +10,19 @@ import Header from './components/Header';
 import NotFound from './components/NotFound';
 
 
-const App = props =>
-  <BrowserRouter forceRefresh={true}>
-    <div className="container">
-      <Route path='/' component={Header} />
-      <Switch>
-        <Route exact path="/" render={() => <Gallery keyword='Sunset' /> } />
-        <Route path="/:keyword" render={({match}) => <Gallery keyword={match.params.keyword} /> } />
-        <Route component={NotFound} />
-      </Switch>
-    </div>
-  </BrowserRouter>;
+const App = () => {
+  return (
+    <BrowserRouter forceRefresh={true}>
+      <div className="container">
+        <Route path='/' component={Header} />
+        <Switch>
+          <Route exact path="/" render={() => <Gallery keyword='Sunset' />} />
+          <Route path="/:keyword" render={({ match }) => <Gallery keyword={match.params.keyword} />} />
+          <Route component={NotFound} />
+        </Switch>
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default App;
