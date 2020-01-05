@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
@@ -12,7 +12,7 @@ import NotFound from './components/NotFound';
 
 const App = () => {
   return (
-    <BrowserRouter forceRefresh={true}>
+    <Router basename="/frontend_TH_10" forceRefresh={true}>
       <div className="container">
         <Route path='/' component={Header} />
         <Switch>
@@ -21,7 +21,7 @@ const App = () => {
           <Route component={NotFound} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

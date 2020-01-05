@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-// Components
 import Navigation from './Navigation';
 
 class Header extends Component {

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from './Image';
 import NoResults from './NoResults';
 
-const ImageList = props => {
+const ImageList = (props) => {
   const results = props.images;
   let images;
   if (results.length > 0) {
@@ -19,7 +19,7 @@ const ImageList = props => {
     <ul>
       {images}
     </ul>
-  );
+  )
 }
 
 export default ImageList;
