@@ -1,5 +1,8 @@
 [Russian](#галерея-изображений)
+
 # React Image Gallery  
+View how it works [here](https://yoffic.github.io/frontend_TH_10/)
+
 This is a study project made for Treehouse Frontend techdegree programm.
 
 **Brief**   
@@ -13,6 +16,8 @@ Could be issues in IE or Edge.
 
 *** 
 ## Галерея изображений
+Посмотреть как работает можно [здесь](https://yoffic.github.io/frontend_TH_10/)
+
 Учебный проект в рамках программы Treehouse Frontend techdegree.
 
 **Задача**   
