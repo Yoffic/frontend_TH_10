@@ -2,7 +2,7 @@
   "name": "gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yoffic.github.io/frontend_TH_10",
+  "homepage": "https://yoffic.github.io/react_gallery",
   "dependencies": {
     "axios": "^0.18.1",
     "react": "^16.4.1",
